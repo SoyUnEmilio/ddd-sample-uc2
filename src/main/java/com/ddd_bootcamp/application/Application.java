@@ -14,11 +14,11 @@ public class Application {
         Product headphone = new Product("Sony Wireless headphone");
         cart.add(headphone);
 
+        System.out.println("--------------------------------------------------------");
         System.out.println("Cart = " + cart);
         List<Product> products = cart.getProducts();
         System.out.println("products = " + products);
-
-
+        System.out.println("--------------------------------------------------------");
 
     }
 }
